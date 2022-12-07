@@ -11,12 +11,6 @@ porsons = [
 
 function logPerson(person) {
   for (const key in person) {
-    console.log(person[key]);
+    console.log(`Your ${key} is ${person[key]}`);
   }
 }
-list = ["a", "b", "c"];
-for (const iterator of list) {
-  console.log(iterator);
-}
-
-person["name"];
